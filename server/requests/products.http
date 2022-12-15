@@ -1,0 +1,38 @@
+@api = http://localhost:5000/products
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "ProductName": "Long sleeve Head T-shirt",
+    "TypeName": "waistcoats",
+    "ProductPrice": 89.90
+}
+
+### Getting an product by id
+GET {{api}}/2
+
+### Deleting an product
+DELETE {{api}}/44
+
+### Getting total products
+GET {{api}}/count
+
+### Getting max of each type
+GET {{api}}/max
+
+###
+GET {{api}}/top/5
+
+### Updating an product
+PUT {{api}}/43
+Content-Type: application/json
+
+{
+    "product_name": "Ripped carrot fit jeans",
+    "category_id": "3",
+    "list_price": 49.99
+}

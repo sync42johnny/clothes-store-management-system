@@ -1,0 +1,36 @@
+@api = http://localhost:5000/orders
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "ProductID": 1,
+    "CustomerID": 1,
+    "Qnt": 3
+}
+
+### Getting an product by id
+GET {{api}}/2
+
+### Deleting an product
+DELETE {{api}}/44
+
+### Getting total products
+GET {{api}}/count
+
+### Getting max of each type
+GET {{api}}/max
+
+###
+GET {{api}}/top/5
+
+### Updating an product
+PUT {{api}}/5
+Content-Type: application/json
+
+{
+    "OrderStatus": "new"
+}

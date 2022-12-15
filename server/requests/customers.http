@@ -1,0 +1,30 @@
+@api = http://localhost:5000/customers
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "CustomerName": "Matt",
+    "CustomerSurname": "Murdock"
+}
+
+### Getting an product
+GET {{api}}/3
+
+### Deleting an product
+DELETE {{api}}/44
+
+### Getting total products
+GET {{api}}/count
+
+### Updating an product
+PUT {{api}}/10
+Content-Type: application/json
+
+{
+    "fname": "Peter",
+    "lname": "Jackson"
+}
