@@ -59,9 +59,9 @@ const EditProduct = () => {
                   onChange={(e) => setType(e.target.value)}
                 >
                   <option value={1}>t-shirt</option>
-                  <option value={2}>jackets</option>
-                  <option value={3}>jeans</option>
-                  <option value={4}>hoodies</option>
+                  <option value={2}>jeans</option>
+                  <option value={3}>hoodies</option>
+                  <option value={4}>jackets</option>
                 </select>
               </div>
             </div>
