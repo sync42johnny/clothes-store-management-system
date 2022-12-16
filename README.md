@@ -1,1 +1,1 @@
-![alt text](https://i.kym-cdn.com/entries/icons/original/000/035/867/rap.png?raw=true)
+![alt text](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/06/Cyberpunk-Memes.jpg?raw=true)
