@@ -1,8 +1,6 @@
-<p align="center"><img src="https://i.imgur.com/t3HNGG4.png" width="200" alt="Brama Logo"></p>
-
 ## Опис
 
-Курсова робота: електронний магазин на Laravel та Microsoft SQL.
+Курсова робота: Створення бази даних магазину одягу
 
 ## Вимоги до бази даних
 
